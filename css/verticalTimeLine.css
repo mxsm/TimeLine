@@ -1,11 +1,27 @@
-body{
-	background-color: #48B379;
-	font-size: 16px;
-	height: 100%;
-	color: #EEE9DC;
-	margin: 0 auto;
-	padding: 0 5%;
-	max-width: 1200px;
+@media screen and (max-width: 1400px){
+	body{
+		background-color: #48B379;
+		font-size: 16px;
+		height: 100%;
+		color: #EEE9DC;
+		margin: 0 auto;
+		padding: 0 20%;
+		max-width: 1200px;
+
+	}
+}
+
+@media screen and (min-width:1920px){
+	body{
+		background-color: #48B379;
+		font-size: 16px;
+		height: 100%;
+		color: #EEE9DC;
+		margin: 0 auto;
+		padding: 0 2%;
+		max-width: 1200px;
+
+	}
 }
 
 .timeLine{
